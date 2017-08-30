@@ -12,7 +12,7 @@
     "build": "rm -rf static/dist && webpack --stats --progress --config ./webpack/prod.config.js",
     "dev": "NODE_ENV=development DEBUG=nicistore node index",
     "prod": "NODE_ENV=production DEBUG=nicistore node index",
-    "start": "NODE_ENV=production DEBUG=nicistore node index"
+    "start": "node index"
   },
   "author": "André Tavares",
   "engines": {
